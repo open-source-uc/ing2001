@@ -1,0 +1,40 @@
+% Front
+% -----
+\includepdf[pages=-]{docs/cert.pdf}
+\includepdf[pages=-]{docs/front.pdf}
+
+
+% Evaluations
+% -----------
+\includepdf[pages=-]{docs/university-evaluation.pdf}
+\includepdf[pages=-]{docs/internship-evaluation.pdf}
+
+
+% Abstract
+% --------
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+\include{0-resume}  % Abstract
+
+
+% Indexes
+% -------
+\pagenumbering{arabic}% Arabic page numbers (and reset to 1)
+\include{1-index}
+\include{2-technicalReport}
+
+
+% References
+% ----------
+\renewcommand\bibsection{\section{\refname}}
+\bibliographystyle{alpha}
+\bibliography{references}
+
+
+% Appendix
+% --------
+\newpage
+\section{Anexos}
+\input{3-essay}
+
+\newpage
+\includepdf[pages=-]{docs/log.pdf}

@@ -1,0 +1,61 @@
+% Document information
+% ====================
+\title{Informe de práctica II}
+\author{Dietrich Daroch}
+\date{\normalsize\today}
+
+
+
+% Document configuration
+% ======================
+
+% Document Type, Font and paper size
+\documentclass[12pt, letterpaper]{article}
+
+% Page Margins
+\usepackage{fullpage}
+\usepackage[top=4cm, left=4cm, bottom=2.5cm, right=2.5cm]{geometry}
+
+% Text Margins
+\setlength{\parindent}{0.49cm}
+\renewcommand{\baselinestretch}{1.5}
+
+% Font Type
+%\usepackage{pslatex} %Times font
+%\usepackage[font={small,sf},format=plain,labelfont=up]{caption}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%% Languages
+\usepackage[utf8]{inputenc}
+\usepackage[british, spanish]{babel}
+
+%% Basic imports
+\usepackage{natbib}
+\usepackage{graphicx}
+
+%% Include PDF pages
+\usepackage[final]{pdfpages}
+
+%% Hyperlinks
+\usepackage[pdfborder={0 0 0}]{hyperref} % no border
+
+%% Math
+\usepackage{amsmath}
+
+%%Images
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{graphics/}{images/}}
+\usepackage{float}
+
+% Figure numbering
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+
+
+
+% Document text
+% =============
+\begin{document}
+\input{doc}
+\end{document}
