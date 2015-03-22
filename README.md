@@ -1,23 +1,23 @@
-Informe Pr·ctica II
+Informe Pr√°ctica II
 ===================
-Este proyecto de LaTeX es un template para realizar el informe de la pr·cica
-laboral seg˙n el asqueroso formato de Word de IngenierÌa UC.
+Este proyecto de LaTeX es un template para realizar el informe de la pr√°cica
+laboral seg√∫n el asqueroso formato de Word de Ingenier√≠a UC.
 
 
 Disclaimer
 ----------
-El template podrÌa no ser totalmente correcto (probablemente no lo sea), pero
-de todas maneras me sirviÛ para aprobar la pr·cica, asÌ≠ que tan malo no es.
+El template podr√≠a no ser totalmente correcto (probablemente no lo sea), pero
+de todas maneras me sirvi√≥ para aprobar la pr√°cica, as√≠¬≠ que tan malo no es.
 
 
 Estructura
 ----------
 El proyecto se encuentra ordenado en varios archivos.
-Los archivos est·n comentados y contienen las guÌas/requisitos del manual de la
-pr·ctica.
+Los archivos est√°n comentados y contienen las gu√≠as/requisitos del manual de la
+pr√°ctica.
 
 <pre>.
-|                                  (ConfiguraciÛn)
+|                                  (Configuraci√≥n)
 |-- main.tex
 |-- doc.tex
 |                                  (Texto)
@@ -33,14 +33,14 @@ pr·ctica.
 |   |-- log.pdf
 |   |-- university-evaluation.pdf
 |   `-- internship-evaluation.pdf
-|                                  (Gr·ficos)
+|                                  (Gr√°ficos)
 |-- graphics/
-|                                  (Im·genes)
+|                                  (Im√°genes)
 `-- pictures/
 </pre>
 
 
 Aportes
 -------
-Si tienen cualquier correcciÛn o mejora pueden enviar un pull-request con los
+Si tienen cualquier correcci√≥n o mejora pueden enviar un pull-request con los
 cambios, o al menos contactarme.
