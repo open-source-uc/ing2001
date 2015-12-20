@@ -7,7 +7,7 @@ laboral según el asqueroso formato de Word de Ingeniería UC.
 Disclaimer
 ----------
 El template podría no ser totalmente correcto (probablemente no lo sea), pero
-de todas maneras me sirvió para aprobar la prácica, así­ que tan malo no es.
+de todas maneras me sirvió para aprobar la práctica, así­ que tan malo no es.
 
 
 Estructura
